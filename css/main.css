@@ -133,7 +133,7 @@ p{
   border-radius: 10px ;
   transition: all ease-in-out .3s;
   display: none;
-  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.897);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.285);
   animation: slideIn .5s ease-in-out;
 }
 .sub_menu_Pages li{

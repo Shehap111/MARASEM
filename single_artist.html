@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="ar" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar">
+    <input type="checkbox" id="nav-check">
+
+    <ul class="specheal ">
+        <li>
+
+            <a href="./index.html">
+                <img src="img/marasem logo.png" alt="">
+                <h6 class="mt-2"> MARASEM</h6>
+            </a>
+        </li>
+    </ul>
+
+
+    <div class="nav-btn">
+        <label for="nav-check">
+            <span class="span_1"></span>
+            <span class="span_2"></span>
+            <span class="span_3"></span>
+        </label>
+    </div>
+
+    <div class="nav-links">
+        <ul>
+            <li> <a href="./products.html">SHOP ART</a> </li>
+            <li> <a href="./Special_Collections.html">SPECIAL COLLECTIONS</a> </li>
+            <li> <a href="./artist.html">ARTISTS</a>
+                <ul class="dropdown">
+                    <li class="dropdown-toggle"> Pages </li>
+                    <ul class="sub_menu_Pages">
+                        <li> <a href="./artest_profile.html">ARTIST PROFILE</a> </li>
+                        <li> <a href="./artest_Addresses.html">ARTIST ADDRESSES</a> </li>
+                        <li> <a href="./artest_Marasem_Credit.html">ARTIST MARASEM CREDIT</a> </li>
+                        <li> <a href="./artest_orders.html">ARTIST ORDERS</a> </li>
+                        <li> <a href="./cart.html">CART</a> </li>
+                        <li> <a href="./Checkout.html">Checkout</a> </li>
+                        <li> <a href="./login.html">LOGIN</a> </li>
+                        <li> <a href="./products.html">PRODUCTS</a> </li>
+                        <li> <a href="./rigester_artist.html">REGISTER ARTIST</a> </li>
+                        <li> <a href="./rigester.html">REGISTER</a> </li>
+                        <li> <a href="./sell_art.html">ARTIST SELL ART</a> </li>
+                        <li> <a href="./single_artist.html">ARTIST SINGLE</a> </li>
+                        <li> <a href="./single_order.html">SINGLE Order</a> </li>
+                        <li> <a href="./single_product.html">SINGLE PRODUCT</a> </li>
+                        <li> <a href="./single_Special_Collections.html">SINGLE SPECIAL COLLECTIONS</a> </li>
+                        <li> <a href="./user_profile.html">USER PROFILE</a> </li>
+                        <li> <a href="./user_Addresses.html">USER ADDRESSES</a> </li>
+                        <li> <a href="./user_Marasem_Credit.html">USER MARASEM CREDIT</a> </li>
+                        <li> <a href="./user_orders.html">USER ORDERS</a> </li>
+                        <li> <a href="./user_profile_cont.html">USER PROFILE Edit</a> </li>
+
+                    </ul>
+                </ul>
+            </li>
+        </ul>
+
+
+        <hr>
+        <div class="dropdown dropdown123">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="./img/user.jpeg" alt="">
+                <h6> <span>Omar Mohsen</span> <br> Your Account </h6>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./artest_profile.html">profile</a></li>
+                <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                <li><a class="dropdown-item" href="./rigester_artist.html">Rigester</a></li>
+            </ul>
+        </div>
+        <hr>
+
+        <div class="badg">
+
+            <button type="button" class="btn btn-primary position-relative">
+                <i class="fa-regular fa-bell"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ww">
+                    4
+                    <span class="visually-hidden"><i class="fa-regular fa-bell"></i></span>
+                </span>
+            </button>
+            <hr>
+            <button type="button" class="btn btn-primary position-relative">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <a href="./cart.html">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        5
+                        <span class="visually-hidden"><i class="fa-solid fa-bag-shopping"></i></span>
+                    </span>
+                </a>
+            </button>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="btn btn-outline-secondary" onclick="fucas()">
+        <button class="btn btn-outline-secondary" data-bs-target="#exampleModalToggle_search" data-bs-toggle="modal">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+
+    <div class="hr"></div>
+
+
+    <div class="dropdown dropdown123">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./img/user.jpeg" alt="">
+            <h6> <span>Omar Mohsen</span> <br> Your Account </h6>
+
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./artest_profile.html">profile</a></li>
+            <li><a class="dropdown-item" href="./login.html">Login</a></li>
+            <li><a class="dropdown-item" href="./rigester_artist.html">Rigester</a></li>
+        </ul>
+    </div>
+    <div class="hr"></div>
+
+
+    <div class="badg">
+
+        <button type="button" class="btn btn-primary position-relative">
+            <i class="fa-regular fa-bell"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ww">
+                4
+                <span class="visually-hidden"><i class="fa-regular fa-bell"></i></span>
+            </span>
+        </button>
+        <div class="hr"></div>
+
+        <button type="button" class="btn btn-primary position-relative">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <a href="./cart.html">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    5
+                    <span class="visually-hidden"><i class="fa-solid fa-bag-shopping"></i></span>
+                </span>
+            </a>
+        </button>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<div class="intro_sections">
+
+</div>
+
+<!-- single_Special_Collections -->
+
+<section class="single_Special_Collections single_artest">
+ <div class="container">
+<div class="row">
+
+
+
+<div class="col-lg-3 col-md-2 ">
+
+<div class="left_box">
+
+        <div class="user">
+            <img src="img/artest.png" alt="">
+            <h6> Omar Mohsen </h6>
+            <p> <i class="fa-solid fa-location-dot"></i> Cairo, Egypt </p>
+            <button class="add-to-cart "> +Follow </button>
+        </div>
+
+<div class="content">
+
+    <ul>
+        <li>Project Views</li>
+        <li>5,989</li>
+    </ul>
+
+<ul>
+    <li>Project Views</li>
+    <li>5,989</li>
+</ul>
+
+<ul>
+    <li>Project Views</li>
+    <li>5,989</li>
+</ul>
+
+<ul>
+    <li>Project Views</li>
+    <li>5,989</li>
+</ul>
+
+<h4>ABOUT ME</h4>
+
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard
+dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+unchanged.
+</p>
+    
+<h4>FOCUS</h4>
+
+<p>Posters, Painting, Drawing,</p>
+
+</div>        
+
+<div class="last_left_box">
+    <p>MEMBER SINCE DECEMBER 2, 2014</p>
+
+    <button class="add-to-cart"> Report </button>
+    <div class="hr"></div>
+    <button class="add-to-cart"> Block </button>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="col-lg-9 col-md-10">
+<div class="single_content Special_Collections">
+<div class="last_box">
+
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Galley</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Special Collections</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab2" data-bs-toggle="pill" data-bs-target="#pills-profile2" type="button"
+            role="tab" aria-controls="pills-profile2" aria-selected="false">Favorits</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab3" data-bs-toggle="pill" data-bs-target="#pills-profile3" type="button"
+            role="tab" aria-controls="pills-profile3" aria-selected="false">Moodboard</button>
+    </li>
+
+</ul>
+
+<div class="tab-content" id="pills-tabContent">
+
+<div class="tab-pane chose fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+<div class="products products_special">
+    <div class="containsser">
+    <div class="row">
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+
+        
+        
+    </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+
+
+<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+
+<div class="card_Special">
+ <div class="row">
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+</div>   
+</div>
+
+
+</div>
+<!-- Favorits -->
+<div class="tab-pane fade" id="pills-profile2" role="tabpanel" aria-labelledby="pills-profile-tab2">
+
+<div class="products products_special">
+    <div class="containsser">
+    <div class="row">
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+<div class="box">
+    <div class="top_img">
+        <div class="artest artest9">
+            <li> <i class="fa-solid fa-plus"></i> </li>
+            <li> <i class="fa-regular fa-heart"></i> </li>
+        </div>
+        <img src="./img/product_1.png" alt="">
+
+
+        <div class="artest artest10">
+            <li>
+                <img src="./img/user.jpeg" alt="">
+                <h6>Omar Mohsen</h6>
+            </li>
+            <li> <i class="fa-regular fa-heart"></i></li>
+        </div>
+    </div>
+
+    <div class="box_content">
+        <a href="./single_product.html"> Artwork Name Lorem </a>
+        <p> Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, </p>
+        <span>EGP 2,500</span>
+    </div>
+</div>
+
+
+
+        
+        
+    </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="tab-pane fade" id="pills-profile3" role="tabpanel" aria-labelledby="pills-profile-tab3">
+
+<div class="card_Special">
+ <div class="row">
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="col-lg-4 col-md-6 card">
+
+
+    <div class="imges">
+
+        <div class="onHov_div_container">
+            <div class="onHov_div">
+                <div class="svg">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <button class="add-to-cart"> Follow </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-8 box">
+                <img src="img/catt5.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-sm-2 aasd  ">
+                <img src="img/catt4.png" alt="">
+                <div class="the_number_container">
+                    <img src="img/catt_2.jpg" alt="">
+                    <p class="the_number"> +3 </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="box">
+        <ul class="tit_price">
+            <h3> <a href="./single_Special_Collections.html">Lorem, ipsum.</a> </h3>
+            <span>EGP 2,500</span>
+        </ul>
+
+        <ul class="specheal ">
+            <li>
+
+                <a href="./index.html">
+                    <img src="img/user.jpeg" alt="">
+                    <h6 class="mt-4"> MARASEM</h6>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="tags">
+            <li>Designs</li>
+            <li>Drawings</li>
+            <li>Paintings</li>
+            <li>+3</li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+</div>   
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>    
+</div>   
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="top_foot">
+            <div class="row">
+
+
+
+                <div class="col-lg-3 box aaxx">
+
+                    <ul class="specheal ">
+                        <li>
+
+                            <a href="./index.html">
+                                <img src="img/marasem logo.png" alt="">
+                                <h6 class="mt-5"> MARASEM</h6>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p>Art Finds a Home & Hearts Connect</p>
+                    <ul class="sochial">
+                        <li> <a href="./index.html"><i class="fa-brands fa-linkedin-in"></i></a> </li>
+                        <li> <a href="./index.html"><i class="fa-brands fa-instagram"></i></a> </li>
+                        <li> <a href="./index.html"><i class="fa-brands fa-twitter"></i></a> </li>
+                        <li> <a href="./index.html"><i class="fa-brands fa-facebook-f"></i></a> </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-3 box">
+                    <ul class="links">
+                        <h3>COMPANY INFO</h3>
+                        <li> <a href="./index.html">About Marasem</a> </li>
+                        <li> <a href="./index.html">Terms And Conditions</a> </li>
+                        <li> <a href="./index.html">Privacy policy</a> </li>
+                        <li> <a href="./index.html">Return Policy</a> </li>
+                        <li> <a href="./index.html">Delivery Policy</a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 box">
+                    <ul class="links">
+                        <h3>HELP & SUPPORT</h3>
+                        <li> <a href="./index.html">Shipping Info</a> </li>
+                        <li> <a href="./index.html">Returns</a> </li>
+                        <li> <a href="./index.html">FAQs</a> </li>
+                        <li> <a href="./index.html">Contact us</a> </li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="col-lg-3 box">
+
+                    <div class="inp">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Share Your Artwork"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            <button class="btn btn-outline-secondary" type="button"
+                                id="button-addon1">subscribe</button>
+                        </div>
+                    </div>
+
+                    <h3>PAYMENT METHOD</h3>
+
+                    <div class="visas">
+                        <img src="./img/VISA-logo.png" alt="">
+                        <img src="./img/visa_3.png" alt="">
+                        <img src="./img/visa_2.png" alt="">
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+        <div class="last_foot">
+            <ul>
+                <li> MARASEM - © 2023 All Rights Reserved</li>
+                <li> Made By <a href="./https://portfolio-amber-chi-30.vercel.app/">Shehap</a> </li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+<div class="modal search_bar fade" id="exampleModalToggle_search" aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog ">
+
+        <div class="modal-content">
+            <input id="search_bar" value="" type="text" placeholder="بتدور علي اي">
+
+            <div class="product_in_search" style="display: none;" id="product_in_search">
+                <a href="./products.html">
+                    <img src="img/artist_1.png" alt="">
+                    <div class="pro">
+                        <h4>Artwork Name Lorem</h4>
+                        <span> 100$ <del>150#</del> </span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/isotope.pkgd.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
